@@ -304,7 +304,7 @@ with col_about:
     st.markdown('<div class="img-wrap">', unsafe_allow_html=True)
     st.image(
         # ↓↓↓ REPLACE THIS URL with your image path, e.g. "profile.jpg" ↓↓↓
-        "profile_DrHaripriya_1",
+        "profile_DrHaripriya_1.jpeg",
         width=130,
     )
     st.markdown('</div>', unsafe_allow_html=True)
@@ -493,4 +493,5 @@ st.markdown(
     "<p style='text-align:center;color:#9ca3af;font-size:.8rem;'>"
     "© 2025 Dr. Haripriya Katira · MDS Prosthodontist · Built with Streamlit</p>",
     unsafe_allow_html=True,
+
 )
